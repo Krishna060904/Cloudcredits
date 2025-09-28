@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M V V Krishna Prasad — Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">M V V Krishna Prasad</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero-section text-center text-white d-flex align-items-center">
+  <div class="container py-5">
+    <h1 class="display-5 fw-bold">Hi, I'm M V V Krishna Prasad</h1>
+    <p class="lead">Computer Science Engineering • Full-Stack Web Developer</p>
+    <a href="#projects" class="btn btn-primary btn-lg">View Projects</a>
+    <a href="resume.pdf.pdf" download class="btn btn-outline-light btn-lg ms-2">📄 Download Resume</a>
+  </div>
+</header>
+
+<!-- ABOUT + SKILLS -->
+<section id="about" class="py-5 container">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center">
+      <!-- Make sure frontend/profile.jpg exists -->
+      <img src="profile.jpg.jpg" class="img-fluid rounded shadow-sm mb-3" alt="Profile" style="max-width:320px;">
+    </div>
+    <div class="col-md-8">
+      <h2>About Me</h2>
+      <p>I’m a Computer Science Engineering graduate with hands-on experience in full-stack web development using React,
+Node.js, and Express. I’m skilled in building responsive applications, problem-solving, and working in collaborative
+teams. I'm eager to apply my skills in a full-time web development role and grow as a developer.</p>
+
+      <h3 class="mt-4">Skills</h3>
+
+      <!-- Programming -->
+      <p><strong>Programming:</strong></p>
+      <span class="badge bg-primary me-1">Java</span>
+      <span class="badge bg-primary me-1">Python</span>
+
+      <!-- Web Tools -->
+      <p class="mt-2"><strong>Web Tools:</strong></p>
+      <span class="badge bg-success me-1">HTML</span>
+      <span class="badge bg-success me-1">CSS</span>
+      <span class="badge bg-success me-1">JavaScript</span>
+      <span class="badge bg-success me-1">React.js</span>
+      <span class="badge bg-success me-1">Node.js</span>
+
+      <!-- Database -->
+      <p class="mt-2"><strong>Database:</strong></p>
+      <span class="badge bg-info text-dark me-1">SQL</span>
+      <span class="badge bg-info text-dark me-1">Firebase</span>
+      <span class="badge bg-info text-dark me-1">MongoDB</span>
+      <span class="badge bg-info text-dark me-1">SQLite</span>
+
+      <!-- APIs & Libraries -->
+      <p class="mt-2"><strong>APIs & Libraries:</strong></p>
+      <span class="badge bg-warning text-dark me-1">Hugging Face API</span>
+      <span class="badge bg-warning text-dark me-1">Google Maps API</span>
+      <span class="badge bg-warning text-dark me-1">Esri ArcGIS API</span>
+
+      <!-- Tools -->
+      <p class="mt-2"><strong>Tools:</strong></p>
+      <span class="badge bg-dark me-1">Microsoft Office</span>
+      <span class="badge bg-dark me-1">GitHub</span>
+      <span class="badge bg-dark me-1">VS Code</span>
+      <span class="badge bg-dark me-1">Linux Programming</span>
+
+      <!-- Soft Skills -->
+      <p class="mt-2"><strong>Soft Skills:</strong></p>
+      <span class="badge bg-secondary me-1">Communication</span>
+      <span class="badge bg-secondary me-1">Multi-tasking</span>
+      <span class="badge bg-secondary me-1">Team Building</span>
+      <span class="badge bg-secondary me-1">Problem Solving</span>
+      <span class="badge bg-secondary me-1">Time Management</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Projects</h2>
+    <div id="projectGrid" class="row g-4"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5 container">
+  <h2>Contact Me</h2>
+  <form id="contactForm" class="needs-validation" novalidate>
+    <input id="name" class="form-control mb-2" placeholder="Your Name" required>
+    <input id="email" type="email" class="form-control mb-2" placeholder="Your Email" required>
+    <input id="subject" class="form-control mb-2" placeholder="Subject">
+    <textarea id="message" class="form-control mb-2" rows="5" placeholder="Message" required></textarea>
+    <button id="submitBtn" class="btn btn-primary">Send</button>
+  </form>
+</section>
+
+<!-- SOCIAL MEDIA -->
+<section id="social" class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="mb-4">Connect with Me</h2>
+
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/_mr.kittu_06/" target="_blank" class="btn btn-outline-danger d-flex align-items-center px-3">
+        <i class="bi bi-instagram me-2"></i> Instagram
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:mentekrishna46@gmail.com" class="btn btn-outline-dark d-flex align-items-center px-3">
+        <i class="bi bi-envelope me-2"></i> Email
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/mente-krishna-b5801b261/" target="_blank" class="btn btn-outline-primary d-flex align-items-center px-3">
+        <i class="bi bi-linkedin me-2"></i> LinkedIn
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/Krishna060904" target="_blank" class="btn btn-outline-dark d-flex align-items-center px-3">
+        <i class="bi bi-github me-2"></i> GitHub
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=100087919818228" target="_blank" class="btn btn-outline-primary d-flex align-items-center px-3">
+        <i class="bi bi-facebook me-2"></i> Facebook
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/919177148470" target="_blank" class="btn btn-outline-success d-flex align-items-center px-3">
+        <i class="bi bi-whatsapp me-2"></i> WhatsApp
+      </a>
+
+      <!-- Call -->
+      <a href="tel:+919177148470" class="btn btn-outline-secondary d-flex align-items-center px-3">
+        <i class="bi bi-telephone me-2"></i> Call
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Project Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="modalTitle" class="modal-title"></h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImg" class="img-fluid mb-3" alt="Project image" />
+        <p id="modalDesc"></p>
+        <a id="modalRepo" href="#" target="_blank" class="btn btn-outline-secondary me-2">Repo</a>
+        <a id="modalLive" href="#" target="_blank" class="btn btn-primary">Live</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="py-3 text-center bg-white border-top">© 2024 Krishna Prasad</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your site script (loads projects.json, handles modal and contact form) -->
+<script src="script.js"></script>
+</body>
+</html>

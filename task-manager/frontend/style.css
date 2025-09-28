@@ -1,0 +1,4 @@
+body.light-mode { background:#f8f9fa; color:#212529; }
+body.dark-mode { background:#0f1720; color:#e6eef6; }
+.card { transition:0.2s; }
+.card:hover { transform:translateY(-4px); box-shadow:0 6px 20px rgba(0,0,0,0.15); }

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "AI Resume Builder",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=60",
+    "description": "AI-powered resume generator built during TechXcelerate Hackathon.",
+    "repo": "https://github.com/Krishna060904",
+    "live": "#"
+  },
+  {
+    "title": "AI Captioning & Transcription Tool",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&q=60",
+    "description": "Accessibility app to convert media into text and captions.",
+    "repo": "https://github.com/Krishna060904",
+    "live": "#"
+  },
+  {
+    "title": "Flash Card Quiz App",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=60",
+    "description": "Interactive quiz using flashcards with instant scoring and progress tracking.",
+    "repo": "https://github.com/Krishna060904",
+    "live": "#"
+  },
+  {
+    "title": "Weather App",
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?w=1200&q=60",
+    "description": "Weather forecasting app using public weather APIs and location search.",
+    "repo": "https://github.com/Krishna060904",
+    "live": "#"
+  },
+  {
+    "title": "Food Waste Management Project",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1200&q=60",
+    "description": "Sustainability project to reduce food waste by tracking and redistributing unused food.",
+    "repo": "https://github.com/Krishna060904",
+    "live": "#"
+  }
+]
